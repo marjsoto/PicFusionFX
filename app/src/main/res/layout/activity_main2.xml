@@ -88,6 +88,7 @@
         android:ems="10"
         android:hint="Foto con gorros de fiesta -ejemplo-"
         android:inputType="text"
+        android:textColorHint="#05A89A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
@@ -130,7 +131,7 @@
         app:layout_constraintVertical_bias="0.389" />
 
     <ImageView
-        android:id="@+id/ivAntes"
+        android:id="@+id/imageV"
         android:layout_width="173dp"
         android:layout_height="156dp"
         app:layout_constraintBottom_toBottomOf="parent"

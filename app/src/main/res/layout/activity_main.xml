@@ -61,6 +61,7 @@
         android:hint="Ingrese su contrseña"
         android:inputType="textPassword"
         android:textColor="#04685F"
+        android:textColorHint="#05A89A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -70,19 +71,20 @@
 
     <EditText
         android:id="@+id/edtUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
         android:backgroundTint="#02A697"
         android:ems="10"
         android:hint="Ingrese su usuario"
         android:inputType="text"
         android:textColor="#04685F"
+        android:textColorHint="#05A89A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.341"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <TextView
         android:id="@+id/textView3"

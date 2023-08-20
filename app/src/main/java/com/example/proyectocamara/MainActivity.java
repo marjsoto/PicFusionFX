@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EditText etUser = (EditText) findViewById(R.id.edtUsuario);
         Intent i = new Intent(this, MainActivity2.class );
         i.putExtra("usuario", etUser.getText().toString()); //obtiene el usuario para el mensaje de bienvenida
-        startActivity(i);
+        startActivity(i);//
     }
 
     public void registro(View view) {
