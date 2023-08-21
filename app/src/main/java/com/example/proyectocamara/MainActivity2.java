@@ -40,8 +40,11 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
+
+    //este codigo permite abrir la camara
     ActivityResultLauncher<Intent> camaraLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
         @Override
+        //permite visualizar la imagen tomada
         public void onActivityResult(ActivityResult result) {
             if(result.getResultCode()==RESULT_OK){
                 Bundle extras = result.getData().getExtras();
