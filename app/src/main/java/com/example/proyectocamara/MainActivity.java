@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
@@ -46,8 +47,13 @@ public class MainActivity extends AppCompatActivity {
                     // La respuesta exitosa contiene la ruta de la imagen procesada
                     String outputPath = response.body().getOutputPath();
 
+                    // Obtener una referencia al ImageView
+                    ImageView imgDespues = findViewById(R.id.imgDespues);
+
                     // Cargar y mostrar la imagen procesada con Picasso
-                    Picasso.get().load("https://localhost:5000" + "/get_image?output_path=" + outputPath).into(MainActivity4.class.imgDespues);
+                    Picasso.get()
+                            .load("https://localhost:5000" + "/get_image?output_path=" + outputPath)
+
                 } else {
                     // Manejar errores aquí
                 }
