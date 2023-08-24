@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# appCam
+#
 Proyecto de programacion de sistemas telematicos
 =======
 # PicFusionFX

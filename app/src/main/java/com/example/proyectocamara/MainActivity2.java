@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.google.gson.annotations.SerializedName;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -77,4 +78,5 @@ public class MainActivity2 extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class );
         startActivity(i);
     }
+
 }
